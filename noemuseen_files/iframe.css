@@ -1,0 +1,38 @@
+#seite {
+	width: 100%;
+}
+
+#content {
+	width: 100%;
+}
+
+#content .mitte {
+	width: 100%;
+	max-width: 615px;
+	position: relative;
+}
+
+#content {
+	padding-top: 16px;
+}
+
+#swSearch {
+	top: 110px;
+	/* right: 68px;*/
+}
+
+.iframe-suche {
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) { 
+	#museum-suche .formItem50,
+	#museum-suche .formItem100,
+	#museum-suche {
+		width: 100%;
+	}
+	
+	.swSearchContainer {
+		display: none;
+	}
+}

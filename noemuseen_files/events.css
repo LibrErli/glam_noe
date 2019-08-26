@@ -1,0 +1,199 @@
+#vaResult .header {
+	position: relative;
+	font-weight: bold;
+	padding: 8px 0 10px 0;
+	border-bottom: 1px solid #e3e7eb;
+	margin: 0 0 32px 0;
+}
+
+#vaResult .header a {
+	text-decoration: none;
+}
+
+#vaResult .header .path {
+	float: left;
+	width: 550px;
+}
+
+#vaResult .header .right {
+	position: absolute;
+	right: 0px;
+}
+
+#vaResult table {
+	width: 100%;
+	border-collapse: collapse;
+	clear: both;
+}
+
+#vaResult table tr th {
+	text-align: left;
+	margin: 0px;
+	padding: 0 12px 4px 12px;
+}
+
+#vaResult table tr th a {
+	font-weight: bold;
+}
+
+#vaResult table a:hover {}
+
+#vaResult table .header {
+	position: relative;
+	padding-left: 10px;
+	padding-top: 3px;
+	height: 20px;
+	border-bottom: solid 1px #025193;
+}
+
+#vaResult table .header div,
+#vaResult table .element div {
+	float: left;
+}
+
+#vaResult table .ort {
+	width: 100px;
+}
+
+#vaResult table .set {
+	text-align: center;
+	margin-left: 5px;
+}
+
+#vaResult table .bezeichnung {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-right: 40px;
+}
+
+#vaResult table .bezeichnung a {
+	font-weight: bold;
+	margin: 6px 0;
+}
+
+#vaResult table .bezeichnung .location {
+	float: none;
+	margin: 4px 0 2px 0;
+	font-weight: normal;
+}
+
+#vaResult table tr td.Gemeinde {
+	width: 100px;
+}
+
+#vaResult table tr td.Gemeinde a {
+	color: #888;
+}
+
+#vaResult table .datum {
+	width: 87px;
+}
+
+#vaResult table tr.linie_trennung {
+	background: url("../img/bgdots.gif") repeat-x;
+	height: 1px;
+	border-collapse: collapse;
+	clear: both;
+}
+
+#vaResult table tr.linie_trennung td {
+	height: 1px;
+	padding: 0;
+}
+
+#vaResult table .merken {
+	width: 40px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#vaResult table tr {
+	position: relative;
+	padding-left: 10px;
+	margin-top: 5px;
+}
+
+#vaResult table tr td {
+	padding: 16px 12px 8px 12px;
+}
+#vaResult table tr td.bezeichnung {
+	font-weight: bold;
+}
+#vaResult table .vakategorie {
+	font-weight: normal;
+}
+#vaResult .nav {
+	height: 20px;
+	text-align: right;
+	font-weight: bold;
+	display: block;
+	float: right;
+	overflow: visible;
+	position: relative;
+}
+#vaResult .nav img {
+	margin-bottom: -3px;
+}
+#vaDetail {
+	width: 100%;
+	float: left;
+}
+#vaDetail #BildDetail {
+	max-width: 520px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#vaDetail .contentblock {
+	padding-top: 12px;
+	margin-bottom: 5px;
+}
+#vaDetail .farbe {
+	border: 1px dotted #B9BABB;
+	padding: 12px;
+}
+#vaDetail .contentblock #termineblock {
+	max-height: 200px;
+	overflow: auto;
+	position: relative;
+	width: auto;
+}
+#vaDetail #titel_termine {
+	font-weight: bold;
+	margin-top: 10px;
+	position: relative;
+	top: 15px;
+}
+#vaDetail #karte {
+	display: block;
+	position: relative;
+	height: 300px;
+	width: 520px;
+	background-color: #FFFF66;
+}
+#dmvakarte {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 350px;
+	margin-bottom: 10px;
+}
+#blase {
+	width: 180px;
+	font-weight: normal;
+}
+#blase .grey {
+	color: #888;
+}
+.dmkarteopen {
+	height: 480px;
+}
+#dmvakartebtn {
+	float: right;
+	position: relative;
+}
+#dmvakartebtn a {
+	margin: 4px 0 0 0;
+	display: inline-block;
+	background: url('../img/icon-map.png') no-repeat left center;
+	padding: 0 0 0 16px;
+}

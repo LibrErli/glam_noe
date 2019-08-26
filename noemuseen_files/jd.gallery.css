@@ -1,0 +1,163 @@
+#myGallery,
+#myGallerySet,
+#flickrGallery {
+	float: left;
+	overflow: hidden;
+	height: 90px;
+	width: 190px;
+	z-index: 0;
+	margin: 0;
+	margin-right: 10px;
+	border: none;
+}
+
+#flickrGallery {
+	width: 90px;
+	height: 90px;
+}
+
+#myGallery4,
+#myGallery2,
+#myGallery3 {
+	position: relative;
+	z-index: 1;
+	float: left;
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	z-index: 0;
+	text-align: left;
+	margin: 0;
+	margin-right: 10px;
+	border: none;
+	margin-bottom: 11px;
+}
+
+#myGallery4 img.thumbnail,
+#myGallery2 img.thumbnail,
+#myGallery3 img.thumbnail {
+	display: none;
+}
+
+#myGallery img.thumbnail,
+#myGallerySet img.thumbnail {
+	display: none;
+}
+
+#myGallery .jdGallery,
+#myGallery2 .jdGallery,
+#myGallery3 .jdGallery,
+#myGallery4 .jdGallery {
+	height: 90px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jdGallery {
+	overflow: hidden;
+	position: relative;
+}
+
+.jdGallery img {
+	border: 0;
+	margin: 0;
+}
+
+.jdGallery .slideElement {
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	/*background-image: url('../img/loading-bar-black.gif');z-index:1;}*/
+	background-image: url('../img/loading.gif');
+	z-index: 1;
+}
+
+#dmGallery {
+	width: 225px;
+	float: none;
+	clear: both;
+	position: relative;
+	height: 215px;
+	margin-top: 8px;
+}
+
+.jdGallery .loadingElement {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('../img/loading.gif');
+}
+
+.jdGallery .slideInfoZone {
+	position: absolute;
+	z-index: 10;
+	width: 182px;
+	margin: 0px;
+	left: 0px;
+	bottom: 20px;
+	color: #333;
+	text-indent: 0;
+	height: 45px;
+}
+
+* html .jdGallery .slideInfoZone {
+	bottom: -1px;
+	opacity: 1;
+}
+
+.jdGallery .slideInfoZone h2 {
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	padding: 0;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.jdGallery .slideInfoZone p {
+	width: 200px;
+	padding: 0;
+	margin: 0px;
+	color: #999;
+	clear: both;
+	font-size: 11px;
+}
+
+.jdGallery a {
+	font-size: 100%;
+	text-decoration: none;
+	color: inherit;
+}
+
+.jdGallery a.right,
+.jdGallery a.left {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.jdGallery a.left {
+	right: 19px;
+	bottom: 40px;
+	margin-top: 25px;
+	background: url('../img/icon-pager-prev.png') 16px 0;
+	height: 16px;
+	width: 16px;
+}
+
+.jdGallery a.right {
+	right: 0;
+	bottom: 40px;
+	margin-top: 25px;
+	background: url('../img/icon-pager-next.png') 0 0;
+	height: 16px;
+	width: 16px;
+}
